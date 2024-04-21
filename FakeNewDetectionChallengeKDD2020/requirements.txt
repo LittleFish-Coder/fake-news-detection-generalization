@@ -3,3 +3,6 @@ transformers
 numpy
 torch
 ipykernel
+evaluate
+scikit-learn
+accelerate
