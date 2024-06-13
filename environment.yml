@@ -7,9 +7,9 @@ dependencies:
   - transformers
   - numpy
   - pytorch=2.3.0
-  - ipykernel
   - scikit-learn
   - pip
   - pip:
     - evaluate
     - accelerate
+    - ipykernel
