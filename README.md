@@ -47,3 +47,12 @@ $$
 $$
 
 ## Models Pipeline
+
+### 1. TF-IDF + ML Models
+![pipeline1](workflow/pipeline1.jpg)
+### 2. Word Embeddings + ML Models
+![pipeline2](workflow/pipeline2.jpg)
+### 3. Word Embeddings + Transformer Models
+![pipeline3](workflow/pipeline3.jpg)
+### 4. Word Embeddings + GNN
+![pipeline4](workflow/pipeline4.jpg)
