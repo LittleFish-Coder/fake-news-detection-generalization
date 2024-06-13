@@ -6,7 +6,7 @@ dependencies:
   - pandas
   - transformers
   - numpy
-  - pytorch=2.3.0
+  - pytorch
   - scikit-learn
   - pip
   - pip:
