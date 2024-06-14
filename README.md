@@ -1,15 +1,13 @@
 # Model Comparison for Fake News Detection 
 
 ## Setup
-We recommend using a virtual environment to run this project. You can create a virtual environment using either conda or pip. 
-- conda:
+We recommend using conda to create a virtual environment and install the required packages.
 ```bash
-conda env create -f environment.yml
+conda create -n fake-news python=3.10
 ```
 ```bash
 conda activate fake-news
 ```
-- pip:
 ```bash
 pip install -r requirements.txt
 ```
