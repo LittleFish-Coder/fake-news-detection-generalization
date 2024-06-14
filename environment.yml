@@ -13,3 +13,4 @@ dependencies:
     - evaluate
     - accelerate
     - ipykernel
+    - gensim
