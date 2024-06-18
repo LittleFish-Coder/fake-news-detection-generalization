@@ -64,14 +64,15 @@ We use `distilBERT` encoder to get the word embeddings.
 - LR: Logistic Regression
 - SVM: Support Vector Machine
 
-| Model | Accuracy |
+| Model | ValidaAccuracy |
 | --- | --- |
 | TF-IDF + LR | 0.71 |
 | TF-IDF + SVM | 0.72 |
-| Word Embeddings + LR | --- |
-| Word Embeddings + SVM | --- |
-| Word Embeddings + BERT | --- |
-| Word Embeddings + GNN | --- |
+| Word Embeddings + LR | 0.69 |
+| Word Embeddings + SVM | 0.73 |
+| Word Embeddings + BERT | 0.81 |
+| TF-IDF + textGCN | 0.66 |
+| Word Embeddings + GCN | 0.59 |
 
 ## Models Detail
 ### 1. TF-IDF + ML Models
