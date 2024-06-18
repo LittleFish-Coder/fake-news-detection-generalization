@@ -44,7 +44,7 @@ $$
 \text{accuracy} = \frac{\text{correct predictions}}{\text{correct predictions} + \text{incorrect predictions}}
 $$
 
-## Models Pipeline
+## Model Pipeline
 
 ### 1. TF-IDF + ML Models
 ![pipeline1](workflow/TF-IDF+ML.png)
