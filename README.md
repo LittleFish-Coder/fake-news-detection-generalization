@@ -47,13 +47,15 @@ $$
 ## Models Pipeline
 
 ### 1. TF-IDF + ML Models
-![pipeline1](workflow/pipeline1.jpg)
+![pipeline1](workflow/TF-IDF+ML.png)
 ### 2. Word Embeddings + ML Models
-![pipeline2](workflow/pipeline2.jpg)
+![pipeline2](workflow/Embeddings+ML.png)
 ### 3. Word Embeddings + Transformer Models
-![pipeline3](workflow/pipeline3.jpg)
-### 4. Word Embeddings + GNN
-![pipeline4](workflow/pipeline4.jpg)
+![pipeline3](workflow/transformer-classifier.png)
+### 4. TF-IDF + TextGCN
+![pipeline4](workflow/TF-IDF+TextGCN.png)
+### 4. Word Embeddings + GCN
+![pipeline5](workflow/Embedding+GCN.png)
 
 ## Results
 
@@ -71,11 +73,6 @@ We use `distilBERT` encoder to get the word embeddings.
 | Word Embeddings + LR | 0.69 |
 | Word Embeddings + SVM | 0.73 |
 | Word Embeddings + BERT | 0.81 |
-| TF-IDF + textGCN | 0.66 |
-| Word Embeddings + GCN | 0.59 |
-
-## Models Detail
-### 1. TF-IDF + ML Models
-### 2. Word Embeddings + ML Models
-### 3. Word Embeddings + Transformer Model
-### 4. Word Embeddings + GNN
+| TF-IDF + TextGCN | 0.66 |
+| Word Embeddings + GCN (cos_sim) | 0.59 |
+| Word Embeddings + GCN (KNN) | 0.61 |
