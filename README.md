@@ -54,3 +54,27 @@ $$
 ![pipeline3](workflow/pipeline3.jpg)
 ### 4. Word Embeddings + GNN
 ![pipeline4](workflow/pipeline4.jpg)
+
+## Results
+
+We evaluate the performance by predicting the validation set.
+
+We use `distilBERT` encoder to get the word embeddings.
+
+- LR: Logistic Regression
+- SVM: Support Vector Machine
+
+| Model | Accuracy |
+| --- | --- |
+| TF-IDF + LR | 0.71 |
+| TF-IDF + SVM | 0.72 |
+| Word Embeddings + LR | --- |
+| Word Embeddings + SVM | --- |
+| Word Embeddings + BERT | --- |
+| Word Embeddings + GNN | --- |
+
+## Models Detail
+### 1. TF-IDF + ML Models
+### 2. Word Embeddings + ML Models
+### 3. Word Embeddings + Transformer Model
+### 4. Word Embeddings + GNN
